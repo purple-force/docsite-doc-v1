@@ -1,0 +1,4 @@
+{
+  "filename": "installation.md",
+  "__html": "<blockquote>\n<p>This document is applicable to the project which is initialized by docsite 1.0.0 and later. Please refer to <a href=\"https://txd-team.github.io/docsite-doc\">https://txd-team.github.io/docsite-doc</a> for pre versions.</p>\n</blockquote>\n<h2>Installation</h2>\n<p><code>docsite</code> is used to quickly build static sites based on markdown documents.</p>\n<ol>\n<li>Make sure that the version of <a href=\"https://nodejs.org/en/download/\">node</a> installed meets the following requirements: <code>node &gt;= 6.9.0</code></li>\n<li>Execute <code>npm install docsite -g</code> to install globally</li>\n</ol>\n<h2>Verify the installation</h2>\n<p>Run <code>docsite -V</code> in your terminal,seeing the version of docsite means that it is installed successfully.</p>\n"
+}
