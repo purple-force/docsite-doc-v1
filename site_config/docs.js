@@ -78,6 +78,10 @@ export default {
             title: 'Performance',
             link: '/en-us/docs/performance.html',
           },
+          {
+            title: 'FAQ',
+            link: '/en-us/docs/FAQ.html',
+          },
         ]
       }
     ],
@@ -161,6 +165,10 @@ export default {
           {
             title: '性能',
             link: '/zh-cn/docs/performance.html',
+          },
+          {
+            title: 'FAQ',
+            link: '/zh-cn/docs/FAQ.html',
           },
         ]
       }

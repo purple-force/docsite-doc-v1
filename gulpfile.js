@@ -4,7 +4,7 @@ const gutil = require('gulp-util');
 const webpack = require('webpack');
 const opn = require('opn');
 const WebpackDevServer = require('webpack-dev-server');
-const siteConfig = require('./site_config/site.js').default;
+const siteConfig = require('./site_config/site').default;
 const webpackConfig = require('./webpack.config.js');
 
 const port = siteConfig.port || 8080;
