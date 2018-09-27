@@ -61,6 +61,10 @@ export default {
             title: 'Search Engine Optimization',
             link: '/en-us/docs/SEO.html',
           },
+          {
+            title: 'Global Search',
+            link: '/en-us/docs/search.html',
+          },
         ]
       },
       {
@@ -148,6 +152,10 @@ export default {
           {
             title: '搜索引擎优化',
             link: '/zh-cn/docs/SEO.html',
+          },
+          {
+            title: '全局搜索',
+            link: '/zh-cn/docs/search.html',
           },
         ]
       },
