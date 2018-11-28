@@ -2,7 +2,46 @@
 
 作为一个开源静态文档站点，我们希望用户能够通过搜索引擎更快的访问到需要的内容，因此SEO就显得尤为重要。
 
-docsite对于md文档，提供了`title`、`keywords`、`description`三个元数据配置项。同时将对应的jsx页面渲染成静态HTML，组合到最终生成的页面中去。
+docsite对于markdown文档，提供了`title`、`keywords`、`description`三个元数据配置项。同时将对应的jsx页面渲染成静态HTML，组合到最终生成的页面中去。
+
+对于非markdown文档页面，`title`、`keywords`、`description`三个配置项在项目根目录下的`docsite.config.yml`(v1.3.3版本添加，旧工程需手动添加该文件)中，内容如下：
+```yaml
+pages:
+ # key is the dirname of pages in src/pages, not including documentation and blogList that is related to markdown file
+ home:
+  # 首页配置
+  zh-cn:
+   title: '网页标签title'
+   keywords: '关键词1，关键词2'
+   description: '页面内容简介'
+  # home config
+  en-us:
+   title: 'page title'
+   keywords: 'keyword1,keyword2'
+   description: 'page description'
+ community:
+  # 社区页配置
+  zh-cn:
+   title: '网页标签title'
+   keywords: '关键词1，关键词2'
+   description: '页面内容简介'
+  # community page config
+  en-us:
+   title: 'page title'
+   keywords: 'keyword1,keyword2'
+   description: 'page description'
+ blog:
+  # 博客列表页配置
+  zh-cn:
+   title: '网页标签title'
+   keywords: '关键词1，关键词2'
+   description: '页面内容简介'
+  en-us:
+   # blog list page config
+   title: 'page title'
+   keywords: 'keyword1,keyword2'
+   description: 'page description'
+```
 
 在整个页面站点完成并发布后，为使搜索引擎更快的收录站点，需要向搜索引擎提供站点地图。
 

@@ -8,78 +8,22 @@ After successfully installing `docsite`,go to the project root directory and exe
 ├── .docsite
 ├── .eslintrc
 ├── .gitignore
-├── README.md
+├── .nojekyll
 ├── blog
 │   ├── en-us
-│   │   ├── blog1.md
-│   │   ├── blog2.md
-│   │   ├── blog3.md
-│   │   ├── blog4.md
-│   │   ├── blog5.md
-│   │   ├── blog6.md
-│   │   └── blog7.md
 │   └── zh-cn
-│       ├── blog1.md
-│       ├── blog2.md
-│       ├── blog3.md
-│       ├── blog4.md
-│       ├── blog5.md
-│       ├── blog6.md
-│       └── blog7.md
 ├── docs
 │   ├── en-us
-│   │   ├── demo1.md
-│   │   ├── demo2.md
 │   │   ├── dir
-│   │   │   └── demo3.md
 │   │   └── img
-│   │       └── brhtqqzh.jpeg
 │   └── zh-cn
-│       ├── demo1.md
-│       ├── demo2.md
 │       ├── dir
-│       │   └── demo3.md
 │       └── img
-│           └── brhtqqzh.jpeg
+├── docsite.config.yml
 ├── gulpfile.js
 ├── img
-│   ├── alibaba.png
-│   ├── alibaba_hover.png
-│   ├── architecture.png
-│   ├── brhtqqzh.jpeg
-│   ├── documents.png
 │   ├── dubbo.ico
-│   ├── dubbo_colorful.png
-│   ├── dubbo_gray.png
-│   ├── dubbo_white.png
-│   ├── feature_hogh.png
-│   ├── feature_loadbalances.png
-│   ├── feature_maintenance.png
-│   ├── feature_runtime.png
-│   ├── feature_service.png
-│   ├── feature_transpart.png
-│   ├── issue.png
-│   ├── mailinglist.png
-│   ├── mailinglist_hover.png
-│   ├── pullrequest.png
-│   ├── quick_start.png
-│   ├── segmentfault.png
-│   ├── segmentfault_hover.png
-│   ├── system
-│   │   ├── arrow_down.png
-│   │   ├── arrow_right.png
-│   │   ├── blog.png
-│   │   ├── community.png
-│   │   ├── docs.png
-│   │   ├── docs_hover.png
-│   │   ├── docs_normal.png
-│   │   ├── menu_gray.png
-│   │   ├── menu_white.png
-│   │   ├── next.png
-│   │   └── prev.png
-│   ├── users_alibaba.png
-│   ├── weibo.png
-│   └── weibo_hover.png
+│   └── system
 ├── package-lock.json
 ├── package.json
 ├── redirect.ejs
@@ -92,53 +36,20 @@ After successfully installing `docsite`,go to the project root directory and exe
 ├── src
 │   ├── components
 │   │   ├── bar
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── button
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── footer
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── header
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── language
-│   │   │   └── index.jsx
 │   │   ├── pageSlider
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── sidemenu
-│   │   │   ├── index.jsx
-│   │   │   ├── index.scss
-│   │   │   └── item.jsx
 │   │   └── slider
-│   │       ├── index.jsx
-│   │       └── index.scss
 │   ├── markdown.scss
 │   ├── pages
 │   │   ├── blog
-│   │   │   ├── blogItem.jsx
-│   │   │   ├── blogItem.scss
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── blogDetail
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── community
-│   │   │   ├── contactItem.jsx
-│   │   │   ├── contributorItem.jsx
-│   │   │   ├── ecoItem.jsx
-│   │   │   ├── eventCard.jsx
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   ├── documentation
-│   │   │   ├── index.jsx
-│   │   │   └── index.scss
 │   │   └── home
-│   │       ├── featureItem.jsx
-│   │       ├── index.jsx
-│   │       └── index.scss
 │   ├── reset.scss
 │   └── variables.scss
 ├── template.ejs
@@ -177,6 +88,14 @@ Store some images of site that are not used by markdown, where system stores som
 ### site_config
 
 Store Chinese and English configuration data for the entire site, where `site.js` configures some global data, including the local development server port (default is 8080), root path (to start with `/ `but not tail `/`, if it is just `/`, please fill in the empty string), the default language version of the site, top menu and footer section. `home.jsx`, `docs.js`, `blog.js`, `community.jsx` correspond to the configuration of the home page, document page, blog list page, and community page respectively.
+
+### docsite.config.yml
+
+Store the SEO configuration information of the page corresponding to the non-markdown file(v1.3.3 added)
+
+### .nojekyll
+
+Used to skip the check of jekyll
 
 ### src
 

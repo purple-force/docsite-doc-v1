@@ -1,4 +1,6 @@
 {
   "filename": "search.md",
-  "__html": "<h2>全局搜索</h2>\n<blockquote>\n<p>该功能自1.2.0版本内置模板添加。</p>\n<p>该功能依赖于goolge搜索和百度搜索，因此确保站点被二者<a href=\"./SEO.md\">收录</a></p>\n</blockquote>\n<p>在<code>site_config/site.js</code>配置文件中，有两个字段需要配置：<code>domain</code>和<code>defaultSearch</code>。</p>\n<h3>domain</h3>\n<p>用于设置站点的域名。比如站点地址为<code>https://docsite.js.org/zh-cn/docs/installation.html?p=1</code>，那么设置该字段为<code>docsite.js.org</code>。不包含网络协议、path、查询参数等。</p>\n<h3>defaultSearch</h3>\n<p>用于设置初始展示的搜索引擎，可选值为<code>google</code>、<code>baidu</code>。当然，在使用过程中，可以通过点击图标随意进行切换。</p>\n<p>在填写完关键字后，按下回车键就可以进行搜索了。</p>\n"
+  "__html": "<h2>全局搜索</h2>\n<blockquote>\n<p>该功能自1.2.0版本内置模板添加。</p>\n<p>该功能依赖于goolge搜索和百度搜索，因此确保站点被二者<a href=\"./SEO.md\">收录</a></p>\n</blockquote>\n<p>在<code>site_config/site.js</code>配置文件中，有两个字段需要配置：<code>domain</code>和<code>defaultSearch</code>。</p>\n<h3>domain</h3>\n<p>用于设置站点的域名。比如站点地址为<code>https://docsite.js.org/zh-cn/docs/installation.html?p=1</code>，那么设置该字段为<code>docsite.js.org</code>。不包含网络协议、path、查询参数等。</p>\n<h3>defaultSearch</h3>\n<p>用于设置初始展示的搜索引擎，可选值为<code>google</code>、<code>baidu</code>。当然，在使用过程中，可以通过点击图标随意进行切换。</p>\n<p>在填写完关键字后，按下回车键就可以进行搜索了。</p>\n",
+  "link": "/zh-cn/docs/search.html",
+  "meta": {}
 }

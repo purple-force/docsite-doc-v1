@@ -1,4 +1,6 @@
 {
   "filename": "path.md",
-  "__html": "<h2>路径前缀</h2>\n<p>当站点部署在一些静态托管站点时，其根路径并不是<code>/</code>。比如github pages，其根路径一般为<code>/repertory_name/</code>，如果需要部署到多个平台，那么修改资源的访问地址将是个噩梦。为此，docsite将根路径抽取出来，放置在<code>site_config/site.js</code>中的<code>rootPath</code>字段进行配置，配置规则如下：</p>\n<ul>\n<li>当部署根路径为<code>/</code>，则设置为<code>''</code>空字符串即可。</li>\n<li>当部署根路径不为<code>/</code>，则设置为具体的根路径，注意需以<code>/</code>开头，但不能有尾<code>/</code>。</li>\n</ul>\n<p>在执行<code>docsite build</code>前，请确保<code>rootPath</code>配置正确。</p>\n<h3>路径配置</h3>\n<p>对于站点内的页面链接，在<code>site_config</code>目录下配置时，请以<code>/zh-cn</code>或<code>/en-us</code>开头，内置页面会对这些链接进行处理，拼接上<code>rootPath</code>，进而得到完整的访问地址。</p>\n"
+  "__html": "<h2>路径前缀</h2>\n<p>当站点部署在一些静态托管站点时，其根路径并不是<code>/</code>。比如github pages，其根路径一般为<code>/repertory_name/</code>，如果需要部署到多个平台，那么修改资源的访问地址将是个噩梦。为此，docsite将根路径抽取出来，放置在<code>site_config/site.js</code>中的<code>rootPath</code>字段进行配置，配置规则如下：</p>\n<ul>\n<li>当部署根路径为<code>/</code>，则设置为<code>''</code>空字符串即可。</li>\n<li>当部署根路径不为<code>/</code>，则设置为具体的根路径，注意需以<code>/</code>开头，但不能有尾<code>/</code>。</li>\n</ul>\n<p>在执行<code>docsite build</code>前，请确保<code>rootPath</code>配置正确。</p>\n<h3>路径配置</h3>\n<p>对于站点内的页面链接，在<code>site_config</code>目录下配置时，请以<code>/zh-cn</code>或<code>/en-us</code>开头，内置页面会对这些链接进行处理，拼接上<code>rootPath</code>，进而得到完整的访问地址。</p>\n",
+  "link": "/zh-cn/docs/path.html",
+  "meta": {}
 }
