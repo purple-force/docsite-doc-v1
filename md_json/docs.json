@@ -1,0 +1,186 @@
+{
+  "en-us": [
+    {
+      "filename": "FAQ.md",
+      "link": "/en-us/docs/FAQ.html",
+      "meta": {}
+    },
+    {
+      "filename": "SEO.md",
+      "link": "/en-us/docs/SEO.html",
+      "meta": {}
+    },
+    {
+      "filename": "addBlog.md",
+      "link": "/en-us/docs/addBlog.html",
+      "meta": {}
+    },
+    {
+      "filename": "addDoc.md",
+      "link": "/en-us/docs/addDoc.html",
+      "meta": {}
+    },
+    {
+      "filename": "buildDetail.md",
+      "link": "/en-us/docs/buildDetail.html",
+      "meta": {}
+    },
+    {
+      "filename": "commandLine.md",
+      "link": "/en-us/docs/commandLine.html",
+      "meta": {}
+    },
+    {
+      "filename": "create.md",
+      "link": "/en-us/docs/create.html",
+      "meta": {}
+    },
+    {
+      "filename": "customPage.md",
+      "link": "/en-us/docs/customPage.html",
+      "meta": {}
+    },
+    {
+      "filename": "customStyle.md",
+      "link": "/en-us/docs/customStyle.html",
+      "meta": {}
+    },
+    {
+      "filename": "doc.md",
+      "link": "/en-us/docs/doc.html",
+      "meta": {}
+    },
+    {
+      "filename": "i18n.md",
+      "link": "/en-us/docs/i18n.html",
+      "meta": {}
+    },
+    {
+      "filename": "installation.md",
+      "link": "/en-us/docs/installation.html",
+      "meta": {}
+    },
+    {
+      "filename": "path.md",
+      "link": "/en-us/docs/path.html",
+      "meta": {}
+    },
+    {
+      "filename": "performance.md",
+      "link": "/en-us/docs/performance.html",
+      "meta": {}
+    },
+    {
+      "filename": "preparation.md",
+      "link": "/en-us/docs/preparation.html",
+      "meta": {}
+    },
+    {
+      "filename": "publish.md",
+      "link": "/en-us/docs/publish.html",
+      "meta": {}
+    },
+    {
+      "filename": "redirect.md",
+      "link": "/en-us/docs/redirect.html",
+      "meta": {}
+    },
+    {
+      "filename": "search.md",
+      "link": "/en-us/docs/search.html",
+      "meta": {}
+    }
+  ],
+  "zh-cn": [
+    {
+      "filename": "FAQ.md",
+      "link": "/zh-cn/docs/FAQ.html",
+      "meta": {}
+    },
+    {
+      "filename": "SEO.md",
+      "link": "/zh-cn/docs/SEO.html",
+      "meta": {}
+    },
+    {
+      "filename": "addBlog.md",
+      "link": "/zh-cn/docs/addBlog.html",
+      "meta": {}
+    },
+    {
+      "filename": "addDoc.md",
+      "link": "/zh-cn/docs/addDoc.html",
+      "meta": {}
+    },
+    {
+      "filename": "buildDetail.md",
+      "link": "/zh-cn/docs/buildDetail.html",
+      "meta": {}
+    },
+    {
+      "filename": "commandLine.md",
+      "link": "/zh-cn/docs/commandLine.html",
+      "meta": {}
+    },
+    {
+      "filename": "create.md",
+      "link": "/zh-cn/docs/create.html",
+      "meta": {}
+    },
+    {
+      "filename": "customPage.md",
+      "link": "/zh-cn/docs/customPage.html",
+      "meta": {}
+    },
+    {
+      "filename": "customStyle.md",
+      "link": "/zh-cn/docs/customStyle.html",
+      "meta": {}
+    },
+    {
+      "filename": "doc.md",
+      "link": "/zh-cn/docs/doc.html",
+      "meta": {}
+    },
+    {
+      "filename": "i18n.md",
+      "link": "/zh-cn/docs/i18n.html",
+      "meta": {}
+    },
+    {
+      "filename": "installation.md",
+      "link": "/zh-cn/docs/installation.html",
+      "meta": {}
+    },
+    {
+      "filename": "path.md",
+      "link": "/zh-cn/docs/path.html",
+      "meta": {}
+    },
+    {
+      "filename": "performance.md",
+      "link": "/zh-cn/docs/performance.html",
+      "meta": {}
+    },
+    {
+      "filename": "preparation.md",
+      "link": "/zh-cn/docs/preparation.html",
+      "meta": {}
+    },
+    {
+      "filename": "publish.md",
+      "link": "/zh-cn/docs/publish.html",
+      "meta": {}
+    },
+    {
+      "filename": "redirect.md",
+      "link": "/zh-cn/docs/redirect.html",
+      "meta": {}
+    },
+    {
+      "filename": "search.md",
+      "link": "/zh-cn/docs/search.html",
+      "meta": {}
+    }
+  ]
+}
