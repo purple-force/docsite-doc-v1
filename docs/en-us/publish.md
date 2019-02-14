@@ -1,3 +1,7 @@
+---
+title: Publish site
+---
+
 ## Publish site
 
 > Now the development work of the entire site has been completed, and the project is built by executing docsite build in the project root directory.

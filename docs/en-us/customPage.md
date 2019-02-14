@@ -1,3 +1,7 @@
+---
+title: Custom page
+---
+
 ## Custom page
 
 The overall architecture of docsite is based on react, so you should know something about it. You can view [react](https://reactjs.org/) to learn it.

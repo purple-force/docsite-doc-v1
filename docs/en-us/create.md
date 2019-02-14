@@ -1,3 +1,7 @@
+---
+title: Create a site
+---
+
 ## Create a site
 
 > After doing the preparatory work, you can now start defining your own site.

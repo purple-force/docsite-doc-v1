@@ -2,5 +2,7 @@
   "filename": "publish.md",
   "__html": "<h2>Publish site</h2>\n<blockquote>\n<p>Now the development work of the entire site has been completed, and the project is built by executing docsite build in the project root directory.</p>\n</blockquote>\n<h3>Site hosting</h3>\n<p>You can host your site on github pages or on your own server.</p>\n<h3>Github pages</h3>\n<p>Create a new repository on github and upload the project code to the repository. Open the project's github page and select the Settings panel as shown below:\n<img src=\"https://img.alicdn.com/tfs/TB1rbTHxXGWBuNjy0FbXXb4sXXa-1600-134.png\" alt=\"\"></p>\n<p>Go to the <code>GitHub Pages</code> section, select <code>Source</code> and click <code>Save</code>. which will give you the address of the site. You can see your site by visiting this address.\n<img src=\"https://img.alicdn.com/tfs/TB1bNegxDtYBeNjy1XdXXXXyVXa-1612-1296.png\" alt=\"\"></p>\n<h3>Your server</h3>\n<p>Place the <code>build</code> directory, <code>img</code> directory, <code>zh-cn</code> directory, <code>en-us</code> directory, <code>index.html</code> and other image resources in the project on the server.</p>\n",
   "link": "/en-us/docs/publish.html",
-  "meta": {}
+  "meta": {
+    "title": "Publish site"
+  }
 }

@@ -1,3 +1,7 @@
+---
+title: Document Writing
+---
+
 ## Document Writing
 
 ### Metadata

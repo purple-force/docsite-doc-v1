@@ -2,5 +2,7 @@
   "filename": "doc.md",
   "__html": "<h2>文档编写</h2>\n<h3>元数据</h3>\n<p>markdown文件均支持在文档顶部自定义元数据，顶部的<code>---</code>（至少三个<code>-</code>）之间的数据会被认为是元数据，一个key占用一行。目前支持<code>title</code>、<code>keywords</code>、<code>description</code>三个字段，在生成静态HTML时，分别作为页面标签的标题、页面关键字、页面描述，便于搜索引擎更好地收录站点，从而利于SEO。</p>\n<pre><code class=\"language-js\">---\ntitle: title\nkeywords: keywords1,keywords2,keywords3\ndescription: some description\n---\n</code></pre>\n<h3>路径</h3>\n<p>在编写markdown文档时，难免需要文档之间的相互引用。而相对地址的写法相比于绝对地址，对于站点内文档之间的引用显得更为便捷。</p>\n<p>当需要引用其他文档时，引用路径按照在项目目录的相对文件地址即可。</p>\n<p>同样的，当需要引用项目内的图片资源，引用路径同样是相对的文件地址，最终会被处理成正确的绝对地址。</p>\n",
   "link": "/zh-cn/docs/doc.html",
-  "meta": {}
+  "meta": {
+    "title": "文档编写"
+  }
 }

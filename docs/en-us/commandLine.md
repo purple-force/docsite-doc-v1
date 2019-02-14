@@ -1,3 +1,7 @@
+---
+title: CommandLine usage
+---
+
 ## CommandLine usage
 The main commands for the `docsite` integration are only three, mainly as follows:
 

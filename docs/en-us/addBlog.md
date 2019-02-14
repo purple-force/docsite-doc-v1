@@ -1,3 +1,7 @@
+---
+title: Add Blog
+---
+
 ## Add Blog
 
 Once the blog is done, it needs to be added to the page.

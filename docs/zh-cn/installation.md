@@ -1,3 +1,7 @@
+---
+title: 安装
+---
+
 > 本文档适用于docsite 1.0.0初始化过后的工程，1.0.0之前的请参考
 > https://txd-team.github.io/docsite-doc
 

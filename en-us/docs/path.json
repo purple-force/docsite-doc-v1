@@ -2,5 +2,7 @@
   "filename": "path.md",
   "__html": "<h2>Path prefix</h2>\n<p>When a site is deployed on some static hosting site, its root path is not <code>/</code>. For example, github pages have a root path of <code>/repertory_name/</code>. If you need to deploy to multiple platforms, it will be a nightmare to modify the access address of the resource. To avoid this, docsite extracts the root path and places it in the <code>rootPath</code> field in <code>site_config/site.js</code>. The configuration rules are as follows:</p>\n<ul>\n<li>\n<p>When the deployment root path is <code>/</code>, set it to <code>''</code>empty string.</p>\n</li>\n<li>\n<p>When the deployment root path is not <code>/</code>, set it to the specific root path. Note that you need to start with <code>/</code>, but not end with a tail <code>/</code>.</p>\n</li>\n</ul>\n<p>Before running <code>docsite build</code>, make sure the <code>rootPath</code> is configured correctly.</p>\n<h3>Path configuration</h3>\n<p>For the page links in the site, when configuring in the <code>site_config</code> directory, please start with <code>/zh-cn</code> or <code>/en-us</code>, the built-in page will process these links, splice the <code>rootPath</code>, and then get the full access links.</p>\n",
   "link": "/en-us/docs/path.html",
-  "meta": {}
+  "meta": {
+    "title": "Path prefix"
+  }
 }

@@ -1,3 +1,7 @@
+---
+title: Building details
+---
+
 ## Building details
 
 This article briefly introduces the build details of docsite to facilitate a better understanding and use of docsite.

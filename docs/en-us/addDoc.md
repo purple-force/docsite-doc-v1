@@ -1,3 +1,7 @@
+---
+title: Add document
+---
+
 ## Adding a document
 Once the document is done, it needs to be added to the page.
 

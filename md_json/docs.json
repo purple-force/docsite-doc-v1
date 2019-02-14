@@ -3,184 +3,256 @@
     {
       "filename": "FAQ.md",
       "link": "/en-us/docs/FAQ.html",
-      "meta": {}
+      "meta": {
+        "title": "FAQ"
+      }
     },
     {
       "filename": "SEO.md",
       "link": "/en-us/docs/SEO.html",
-      "meta": {}
+      "meta": {
+        "title": "SEO"
+      }
     },
     {
       "filename": "addBlog.md",
       "link": "/en-us/docs/addBlog.html",
-      "meta": {}
+      "meta": {
+        "title": "Add Blog"
+      }
     },
     {
       "filename": "addDoc.md",
       "link": "/en-us/docs/addDoc.html",
-      "meta": {}
+      "meta": {
+        "title": "Add document"
+      }
     },
     {
       "filename": "buildDetail.md",
       "link": "/en-us/docs/buildDetail.html",
-      "meta": {}
+      "meta": {
+        "title": "Building details"
+      }
     },
     {
       "filename": "commandLine.md",
       "link": "/en-us/docs/commandLine.html",
-      "meta": {}
+      "meta": {
+        "title": "CommandLine usage"
+      }
     },
     {
       "filename": "create.md",
       "link": "/en-us/docs/create.html",
-      "meta": {}
+      "meta": {
+        "title": "Create a site"
+      }
     },
     {
       "filename": "customPage.md",
       "link": "/en-us/docs/customPage.html",
-      "meta": {}
+      "meta": {
+        "title": "Custom page"
+      }
     },
     {
       "filename": "customStyle.md",
       "link": "/en-us/docs/customStyle.html",
-      "meta": {}
+      "meta": {
+        "title": "Custom style"
+      }
     },
     {
       "filename": "doc.md",
       "link": "/en-us/docs/doc.html",
-      "meta": {}
+      "meta": {
+        "title": "Document Writing"
+      }
     },
     {
       "filename": "i18n.md",
       "link": "/en-us/docs/i18n.html",
-      "meta": {}
+      "meta": {
+        "title": "I18n"
+      }
     },
     {
       "filename": "installation.md",
       "link": "/en-us/docs/installation.html",
-      "meta": {}
+      "meta": {
+        "title": "Installation"
+      }
     },
     {
       "filename": "path.md",
       "link": "/en-us/docs/path.html",
-      "meta": {}
+      "meta": {
+        "title": "Path prefix"
+      }
     },
     {
       "filename": "performance.md",
       "link": "/en-us/docs/performance.html",
-      "meta": {}
+      "meta": {
+        "title": "Performance"
+      }
     },
     {
       "filename": "preparation.md",
       "link": "/en-us/docs/preparation.html",
-      "meta": {}
+      "meta": {
+        "title": "Preparation"
+      }
     },
     {
       "filename": "publish.md",
       "link": "/en-us/docs/publish.html",
-      "meta": {}
+      "meta": {
+        "title": "Publish site"
+      }
     },
     {
       "filename": "redirect.md",
       "link": "/en-us/docs/redirect.html",
-      "meta": {}
+      "meta": {
+        "title": "Redirect"
+      }
     },
     {
       "filename": "search.md",
       "link": "/en-us/docs/search.html",
-      "meta": {}
+      "meta": {
+        "title": "Global Search"
+      }
     }
   ],
   "zh-cn": [
     {
       "filename": "FAQ.md",
       "link": "/zh-cn/docs/FAQ.html",
-      "meta": {}
+      "meta": {
+        "title": "FAQ"
+      }
     },
     {
       "filename": "SEO.md",
       "link": "/zh-cn/docs/SEO.html",
-      "meta": {}
+      "meta": {
+        "title": "SEO"
+      }
     },
     {
       "filename": "addBlog.md",
       "link": "/zh-cn/docs/addBlog.html",
-      "meta": {}
+      "meta": {
+        "title": "添加博客"
+      }
     },
     {
       "filename": "addDoc.md",
       "link": "/zh-cn/docs/addDoc.html",
-      "meta": {}
+      "meta": {
+        "title": "添加文档"
+      }
     },
     {
       "filename": "buildDetail.md",
       "link": "/zh-cn/docs/buildDetail.html",
-      "meta": {}
+      "meta": {
+        "title": "构建细节"
+      }
     },
     {
       "filename": "commandLine.md",
       "link": "/zh-cn/docs/commandLine.html",
-      "meta": {}
+      "meta": {
+        "title": "命令行使用"
+      }
     },
     {
       "filename": "create.md",
       "link": "/zh-cn/docs/create.html",
-      "meta": {}
+      "meta": {
+        "title": "创建站点"
+      }
     },
     {
       "filename": "customPage.md",
       "link": "/zh-cn/docs/customPage.html",
-      "meta": {}
+      "meta": {
+        "title": "自定义页面"
+      }
     },
     {
       "filename": "customStyle.md",
       "link": "/zh-cn/docs/customStyle.html",
-      "meta": {}
+      "meta": {
+        "title": "自定义样式"
+      }
     },
     {
       "filename": "doc.md",
       "link": "/zh-cn/docs/doc.html",
-      "meta": {}
+      "meta": {
+        "title": "文档编写"
+      }
     },
     {
       "filename": "i18n.md",
       "link": "/zh-cn/docs/i18n.html",
-      "meta": {}
+      "meta": {
+        "title": "国际化"
+      }
     },
     {
       "filename": "installation.md",
       "link": "/zh-cn/docs/installation.html",
-      "meta": {}
+      "meta": {
+        "title": "安装"
+      }
     },
     {
       "filename": "path.md",
       "link": "/zh-cn/docs/path.html",
-      "meta": {}
+      "meta": {
+        "title": "路径前缀"
+      }
     },
     {
       "filename": "performance.md",
       "link": "/zh-cn/docs/performance.html",
-      "meta": {}
+      "meta": {
+        "title": "性能"
+      }
     },
     {
       "filename": "preparation.md",
       "link": "/zh-cn/docs/preparation.html",
-      "meta": {}
+      "meta": {
+        "title": "站点准备"
+      }
     },
     {
       "filename": "publish.md",
       "link": "/zh-cn/docs/publish.html",
-      "meta": {}
+      "meta": {
+        "title": "发布站点"
+      }
     },
     {
       "filename": "redirect.md",
       "link": "/zh-cn/docs/redirect.html",
-      "meta": {}
+      "meta": {
+        "title": "重定向"
+      }
     },
     {
       "filename": "search.md",
       "link": "/zh-cn/docs/search.html",
-      "meta": {}
+      "meta": {
+        "title": "全局搜索"
+      }
     }
   ]
 }

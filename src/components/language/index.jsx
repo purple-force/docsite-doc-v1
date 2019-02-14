@@ -1,12 +1,9 @@
 import React from 'react';
-import { autobind } from 'core-decorators';
 import cookie from 'js-cookie';
 import siteConfig from '../../../site_config/site';
 
-@autobind
 class Language extends React.Component {
-  
-  onLanguageChange(language) {
+  onLanguageChange = (language) => {
     const pathname = window.location.pathname;
     let oldLang;
     if (language === 'zh-cn') {
@@ -19,7 +16,7 @@ class Language extends React.Component {
     window.location = newPathname;
   }
 
-  getLanguage() {
+  getLanguage = () => {
     let urlLang;
     if (window.rootPath) {
       urlLang = window.location.pathname.split('/')[2];

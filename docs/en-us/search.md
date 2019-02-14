@@ -1,3 +1,7 @@
+---
+title: Global Search
+---
+
 ## Global Search
 
 > It was introduced by the built-in template of docsite since v1.2.0

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import cookie from 'js-cookie';
 import { scroller } from 'react-scroll';
 import 'whatwg-fetch'; // fetch polyfill
 import path from 'path';
@@ -17,7 +16,6 @@ const anchorReg = /^#[^/]/;
 const relativeReg = /^((\.{1,2}\/)|([\w-]+[/.]))/;
 
 class Documentation extends Language {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -52,7 +50,7 @@ class Documentation extends Language {
     this.handleRelativeImg();
   }
 
-  handleRelativeLink() {
+  handleRelativeLink = () => {
     const language = this.getLanguage();
     // 获取当前文档所在文件系统中的路径
     // rootPath/en-us/docs/dir/hello.html => /docs/en-us/dir
@@ -68,7 +66,7 @@ class Documentation extends Language {
     });
   }
 
-  handleRelativeImg() {
+  handleRelativeImg = () => {
     const language = this.getLanguage();
     // 获取当前文档所在文件系统中的路径
     // rootPath/en-us/docs/dir/hello.html => /docs/en-us/dir

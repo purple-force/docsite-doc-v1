@@ -1,9 +1,7 @@
 import React from 'react';
-import { autobind } from 'core-decorators';
 import classnames from 'classnames';
 import { getLink } from '../../../utils';
 
-@autobind
 class Item extends React.Component {
   constructor(props) {
     super(props);
@@ -23,18 +21,18 @@ class Item extends React.Component {
     };
   }
 
-  onItemClick(e) {
+  onItemClick = (e) => {
     this.props.toggleMenuBody();
     e.stopPropagation();
   }
 
-  toggle() {
+  toggle = () => {
     this.setState({
       opened: !this.state.opened,
     });
   }
 
-  renderSubMenu(data) {
+  renderSubMenu = (data) => {
     return (
       <ul>
       {

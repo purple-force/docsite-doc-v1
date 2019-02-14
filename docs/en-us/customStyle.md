@@ -1,3 +1,7 @@
+---
+title: Custom style
+---
+
 ## Custom style
 Custom styles are divided into the customization of the entire site and the style of the document display.
 

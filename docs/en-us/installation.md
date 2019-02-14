@@ -1,3 +1,7 @@
+---
+title: Installation
+---
+
 > This document is applicable to the project which is initialized by docsite 1.0.0 and later. Please refer to https://txd-team.github.io/docsite-doc for pre versions.
 
 ## Installation

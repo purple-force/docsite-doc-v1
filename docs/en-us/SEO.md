@@ -1,3 +1,7 @@
+---
+title: SEO
+---
+
 ## SEO
 
 As an open source static documentation site, we want users to be able to find the content they need quickly by search engines, so SEO is especially important.

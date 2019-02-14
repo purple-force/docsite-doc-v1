@@ -81,13 +81,13 @@
       &-active {
         a {
           // font-family: Avenir-Heavy;
+          font-weight: 700;
           opacity: 1;
         }
       }
     }
     .language-switch {
       float: right;
-      display: inline-block;
       box-sizing: border-box;
       width: 24px;
       height: 24px;

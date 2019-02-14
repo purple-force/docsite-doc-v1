@@ -1,10 +1,8 @@
 import React from 'react';
 import classnames from 'classnames';
-import { autobind } from 'core-decorators';
 import Item from './item.jsx';
 import './index.scss';
 
-@autobind
 class SideMenu extends React.Component {
   constructor(props) {
     super(props);
@@ -13,7 +11,7 @@ class SideMenu extends React.Component {
     };
   }
 
-  toggleMenuBody() {
+  toggleMenuBody = () => {
     this.setState({
       menuBodyVisible: !this.state.menuBodyVisible,
     });

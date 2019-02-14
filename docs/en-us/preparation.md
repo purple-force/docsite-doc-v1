@@ -1,3 +1,7 @@
+---
+title: Preparation
+---
+
 ## Preparation
 
 After successfully installing `docsite`,go to the project root directory and execute `docsite init`. The generated directory is as follows:

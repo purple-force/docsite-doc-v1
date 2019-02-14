@@ -2,5 +2,7 @@
   "filename": "performance.md",
   "__html": "<h2>性能</h2>\n<p>在业务使用过程中，我们发现托管在项目内的图片资源占据了大量的访问带宽，导致页面的加载过慢，github pages尤其如此。为提高加载性能，建议将图片进行压缩，或者直接放在cdn上进行引用。</p>\n",
   "link": "/zh-cn/docs/performance.html",
-  "meta": {}
+  "meta": {
+    "title": "性能"
+  }
 }

@@ -1,3 +1,7 @@
+---
+title: 自定义页面
+---
+
 ## 自定义页面
 
 docsite整体架构基于react，所以自定义页面需要有一定的react基础，可查看[react官网](https://reactjs.org/)进行学习。
