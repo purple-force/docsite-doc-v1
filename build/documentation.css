@@ -52,10 +52,10 @@
     .header-container .header-body .menu-item-normal:hover a {
       opacity: 1; }
     .header-container .header-body .menu-item-normal-active a {
+      font-weight: 700;
       opacity: 1; }
     .header-container .header-body .language-switch {
       float: right;
-      display: inline-block;
       box-sizing: border-box;
       width: 24px;
       height: 24px;
