@@ -4,6 +4,9 @@ title: Publish site
 
 ## Publish site
 
+> First, you need to configure the root path of the site and modify the `rootPath'field in `site_config/site.js'. The rules are as follows:
+> + When the deployment root path is `/', set it to `''`empty string.
+> + When the deployment root path is not `/', it is set to the specific root path. Note that it should start with `/', but not end with `/'.
 > Now the development work of the entire site has been completed, and the project is built by executing docsite build in the project root directory.
 
 ### Site hosting
