@@ -33,6 +33,7 @@ class Item extends React.Component {
   }
 
   renderSubMenu = (data) => {
+    const { currentLink } = this.props;
     return (
       <ul>
       {
@@ -41,7 +42,7 @@ class Item extends React.Component {
             className={classnames({
               'menu-item': true,
               'menu-item-level-3': true,
-              'menu-item-selected': getLink(item.link) === window.location.pathname,
+              'menu-item-selected': getLink(item.link) === currentLink,
             })}
             key={index}
             onClick={this.onItemClick}
@@ -55,13 +56,13 @@ class Item extends React.Component {
   }
 
   render() {
-    const { item } = this.props;
+    const { item, currentLink } = this.props;
     const hasChildren = item.children && item.children.length;
     const { opened } = this.state;
     const cls = classnames({
       'menu-item': true,
       'menu-item-level-2': true,
-      'menu-item-selected': getLink(item.link) === window.location.pathname,
+      'menu-item-selected': getLink(item.link) === currentLink,
     });
     const style = {
       height: opened ? 36 * (item.children.length + 1) : 36,

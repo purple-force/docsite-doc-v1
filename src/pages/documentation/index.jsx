@@ -20,6 +20,7 @@ class Documentation extends Language {
     super(props);
     this.state = {
       __html: '',
+      currentLink: '',
     };
   }
 
@@ -30,6 +31,7 @@ class Documentation extends Language {
     .then((md) => {
       this.setState({
         __html: md && md.__html ? md.__html : '',
+        currentLink: md && md.link ? md.link : '',
       });
     });
     this.markdownContainer.addEventListener('click', (e) => {
@@ -87,6 +89,7 @@ class Documentation extends Language {
     const language = this.getLanguage();
     const dataSource = docsConfig[language];
     const __html = this.props.__html || this.state.__html;
+    const { currentLink } = this.state;
     return (
       <div className="documentation-page">
         <Header
@@ -98,7 +101,7 @@ class Documentation extends Language {
         />
         <Bar img="/img/system/docs.png" text={dataSource.barText} />
         <section className="content-section">
-          <Sidemenu dataSource={dataSource.sidemenu} />
+          <Sidemenu dataSource={dataSource.sidemenu} currentLink={currentLink} />
           <div
             className="doc-content markdown-body"
             ref={(node) => { this.markdownContainer = node; }}
