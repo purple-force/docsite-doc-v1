@@ -19,6 +19,8 @@ module.exports = {
   externals: {
     react: 'React',
     'react-dom': 'ReactDOM',
+    '@txfe/at': 'var AT',
+    moment: 'moment',
   },
   module: {
     loaders: [

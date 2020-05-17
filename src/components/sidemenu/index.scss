@@ -51,7 +51,7 @@
       top: 0;
       width: 4px;
       height: 100%;
-      background-image:linear-gradient(0deg, $startColor 0%, $intermediateColor 51%, $endColor 100%);
+      background: $brandColor;
     }
   }
   .menu-item-level-1 {
@@ -80,7 +80,7 @@
           top: 0;
           width: 4px;
           height: 100%;
-          background-image:linear-gradient(0deg, $startColor 0%, $intermediateColor 51%, $endColor 100%);
+          background: $brandColor;
         }
       }
     }

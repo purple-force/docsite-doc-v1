@@ -1,0 +1,114 @@
+@import '../../variables.scss';
+@import '../../reset.scss';
+
+.home-page {
+  .top-section {
+    margin-top: $headerHeight;
+    background: $brandColor;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    .left-part {
+      flex: 1;
+      .title {
+        height: 56px;
+        line-height: 56px;
+        font-family: PingFangSC-Semibold;
+        font-size: 40px;
+        color: #FFF;
+      }
+      .description {
+        height: 50px;
+        line-height: 50px;
+        font-family: PingFangSC-Light;
+        font-size: 36px;
+        color: #FFF;
+        margin: 24px 0 56px;
+      }
+      .install {
+        height: 80px;
+        width: 380px;
+        border-radius: 40px;
+        background-color: #FFF;
+        line-height: 80px;
+        font-size: 30px;
+        text-align: center;
+        font-family: PingFangSC-Medium;
+        a {
+          color: #805EE3;
+        }
+      }
+    }
+    .right-part {
+      flex: 1;
+      video {
+        outline: none;
+        margin-left: 80px;
+        width: calc(100% - 80px);
+      }
+    }
+  }
+  .feature-section {
+    .feature-title {
+      margin: 80px 0;
+      height: 56px;
+      line-height: 56px;
+      text-align: center;
+      font-family: PingFangSC-Semibold;
+      font-size: 40px;
+      color: #262626;
+    }
+    .feature-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1090px;
+      margin: 0 auto;
+      .feature-item {
+        width: 235px;
+        flex-grow:0;
+        flex-shrink:0;
+        text-align: center;
+        margin-bottom: 80px;
+        img {
+          height: 90px;
+        }
+        h3 {
+          margin-top: 40px;
+          height: 28px;
+          font-family: PingFangSC-Medium;
+          font-size: 20px;
+          color: #262626;
+        }
+        p {
+          font-family: PingFangSC-Regular;
+          font-size: 20px;
+          color: #8C8C8C;
+          text-align: center;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .user-section {
+    padding: 80px 80px 160px;
+    background: #e8e8e8;
+    .title {
+      height: 56px;
+      line-height: 56px;
+      font-family: PingFangSC-Semibold;
+      font-size: 40px;
+      color: #262626;
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    .user {
+      display: inline-block;
+      img {
+        width: calc(100% - 30px);
+        margin: 0 15px;
+      }
+    }
+  };
+}

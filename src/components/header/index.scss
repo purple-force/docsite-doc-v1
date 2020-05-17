@@ -15,12 +15,10 @@
     box-shadow: 0 2px 10px 0 rgba(0,0,0,0.08);
   }
   .header-body {
-    max-width: $contentWidth;
-    margin: 0 auto;
+    margin: 0 80px;
     height: $headerHeight;
     line-height: $headerHeight;
     .logo {
-      margin-left: 40px;
       width: 120px;
       height: 25px;
       vertical-align: sub;
@@ -134,8 +132,8 @@
           width:8px;
           height: 2px;
           position: absolute;
-          top:13px;
-          left:11px;
+          top:10px;
+          left:7px;
         }
       }
       &-primary {
@@ -229,18 +227,18 @@
             width: 100%;
           }
           &:hover {
-            background: $endColor;
+            background: $brandColor;
             a {
               color: #fff;
-              opactiy: 1;
+              opacity: 1;
             }
           }
         }
         .menu-item-primary-active, .menu-item-normal-active {
-          background: $endColor;
+          background: $brandColor;
           a {
             color: #fff;
-            opactiy: 1;
+            opacity: 1;
           }
         }
       }
