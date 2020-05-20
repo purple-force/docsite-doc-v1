@@ -83,6 +83,7 @@ class Home extends Language {
           <h3 className="user-title">{dataSource.user.title}</h3>
           <p className="user-description">{dataSource.user.description}</p>
           <Slider
+            pauseOnHover
             arrows={false}
             slidesToShow={3}
             slidesToScroll={3}

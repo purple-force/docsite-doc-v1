@@ -15,7 +15,8 @@
     .header-container-normal .header-body .brand-name {
       color: #9254DE; }
   .header-container .header-body {
-    margin: 0 80px;
+    margin: 0 auto;
+    width: 1200px;
     height: 66px;
     line-height: 66px; }
     .header-container .header-body .brand-name {

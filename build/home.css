@@ -15,7 +15,8 @@
     .header-container-normal .header-body .brand-name {
       color: #9254DE; }
   .header-container .header-body {
-    margin: 0 80px;
+    margin: 0 auto;
+    width: 1200px;
     height: 66px;
     line-height: 66px; }
     .header-container .header-body .brand-name {
@@ -940,9 +941,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 700px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 66px 80px 0; }
   .home-page .top-section .left-part {
-    flex: 1; }
+    width: 450px;
+    margin-right: 50px; }
     .home-page .top-section .left-part .title {
       height: 45px;
       line-height: 45px;
@@ -965,14 +968,14 @@ h1, h2, h3, h4, h5, h6 {
       line-height: 44px;
       font-size: 16px;
       text-align: center;
-      font-family: PingFangSC-Medium; }
+      font-family: PingFangSC-Medium;
+      border: none; }
       .home-page .top-section .left-part .install a {
         color: #805EE3; }
   .home-page .top-section .right-part {
-    flex: 1; }
+    width: 700px; }
     .home-page .top-section .right-part video {
       outline: none;
-      margin-left: 80px;
       width: 700px; }
 
 .home-page .feature-section .feature-title {

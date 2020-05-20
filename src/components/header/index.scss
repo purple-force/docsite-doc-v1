@@ -21,7 +21,8 @@
     }
   }
   .header-body {
-    margin: 0 80px;
+    margin: 0 auto;
+    width: 1200px;
     height: $headerHeight;
     line-height: $headerHeight;
     .brand-name {

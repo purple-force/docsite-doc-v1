@@ -78,6 +78,10 @@ export default {
           img: 'https://img.alicdn.com/tfs/TB1uYHzGrY1gK0jSZTEXXXDQVXa-2880-1446.png',
           link: 'https://d7y.io',
         },
+        {
+          img: 'https://img.alicdn.com/tfs/TB1mX4qG.Y1gK0jSZFMXXaWcVXa-2880-1440.png',
+          link: 'https://community.wuhan2020.org.cn/',
+        },
       ],
     },
   },
@@ -159,6 +163,10 @@ export default {
         {
           img: 'https://img.alicdn.com/tfs/TB1uYHzGrY1gK0jSZTEXXXDQVXa-2880-1446.png',
           link: 'https://d7y.io',
+        },
+        {
+          img: 'https://img.alicdn.com/tfs/TB1mX4qG.Y1gK0jSZFMXXaWcVXa-2880-1440.png',
+          link: 'https://community.wuhan2020.org.cn/',
         },
       ],
     },
