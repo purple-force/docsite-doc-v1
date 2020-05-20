@@ -3,36 +3,36 @@
 
 .home-page {
   .top-section {
-    margin-top: $headerHeight;
-    background: $brandColor;
+    background: url('https://img.alicdn.com/tfs/TB17IwMGNz1gK0jSZSgXXavwpXa-1440-696.png');
     height: 700px;
     display: flex;
     align-items: center;
-    padding: 0 80px;
+    padding: $headerHeight 80px 0;
     .left-part {
       flex: 1;
       .title {
-        height: 56px;
-        line-height: 56px;
+        height: 45px;
+        line-height: 45px;
         font-family: PingFangSC-Semibold;
-        font-size: 40px;
+        font-size: 32px;
         color: #FFF;
       }
       .description {
-        height: 50px;
-        line-height: 50px;
+        height: 28px;
+        line-height: 28px;
         font-family: PingFangSC-Light;
-        font-size: 36px;
+        font-size: 20px;
         color: #FFF;
         margin: 24px 0 56px;
       }
       .install {
-        height: 80px;
-        width: 380px;
-        border-radius: 40px;
+        height: 44px;
+        width: 160px;
+        border-radius: 22px;
         background-color: #FFF;
-        line-height: 80px;
-        font-size: 30px;
+        box-shadow: 0 6px 24px 0 rgba(42,0,110,0.20);
+        line-height: 44px;
+        font-size: 16px;
         text-align: center;
         font-family: PingFangSC-Medium;
         a {
@@ -45,45 +45,58 @@
       video {
         outline: none;
         margin-left: 80px;
-        width: calc(100% - 80px);
+        // width: calc(100% - 80px);
+        width: 700px;
       }
     }
   }
   .feature-section {
     .feature-title {
-      margin: 80px 0;
-      height: 56px;
-      line-height: 56px;
+      margin: 60px 0 90px;
+      line-height: 32px;
       text-align: center;
-      font-family: PingFangSC-Semibold;
-      font-size: 40px;
+      font-family: PingFangSC-Regular;
+      font-size: 24px;
       color: #262626;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -28px;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 8px;
+        border-radius: 5px;
+        background: #ffcb1d;
+      }
     }
     .feature-container {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-around;
       flex-wrap: wrap;
-      max-width: 1090px;
+      width: 1200px;
       margin: 0 auto;
       .feature-item {
-        width: 235px;
-        flex-grow:0;
-        flex-shrink:0;
+        width: 234px;
+        margin: 0 33px 80px;
+        flex-grow: 0;
+        flex-shrink: 0;
         text-align: center;
-        margin-bottom: 80px;
+        // margin-bottom: 80px;
         img {
           height: 90px;
         }
         h3 {
           margin-top: 40px;
-          height: 28px;
+          line-height: 30px;
           font-family: PingFangSC-Medium;
-          font-size: 20px;
+          font-size: 16px;
           color: #262626;
         }
         p {
           font-family: PingFangSC-Regular;
-          font-size: 20px;
+          font-size: 14px;
           color: #8C8C8C;
           text-align: center;
           line-height: 30px;
@@ -92,23 +105,45 @@
     }
   }
   .user-section {
-    padding: 80px 80px 160px;
+    padding: 60px 90px 110px;
     background: #e8e8e8;
-    .title {
-      height: 56px;
-      line-height: 56px;
-      font-family: PingFangSC-Semibold;
-      font-size: 40px;
+    .user-title {
+      line-height: 32px;
+      font-family: PingFangSC-Regular;
+      font-size: 24px;
       color: #262626;
+      text-align: center;
+      margin-bottom: 78px;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -28px;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 8px;
+        border-radius: 5px;
+        background: #ffcb1d;
+      }
+    }
+    .user-description {
+      font-size: 18px;
+      line-height: 26px;
+      font-family: PingFangSC-Regular;
+      color: #595959;
       text-align: center;
       margin-bottom: 80px;
     }
     .user {
       display: inline-block;
       img {
-        width: calc(100% - 30px);
-        margin: 0 15px;
+        width: calc(100% - 60px);
+        margin: 0 30px;
       }
+    }
+    .next-slick .next-slick-dots {
+      transform: translateY(50px);
     }
   };
 }

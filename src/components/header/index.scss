@@ -9,19 +9,27 @@
   background-color: #fff;
   &-primary {
     background-color: transparent;
+    .header-body .brand-name {
+      color: #fff;
+    }
   }
   &-normal {
     background-color: #fff;
     box-shadow: 0 2px 10px 0 rgba(0,0,0,0.08);
+    .header-body .brand-name {
+      color: $brandColor;
+    }
   }
   .header-body {
     margin: 0 80px;
     height: $headerHeight;
     line-height: $headerHeight;
-    .logo {
-      width: 120px;
-      height: 25px;
-      vertical-align: sub;
+    .brand-name {
+      display: inline-block;
+      height: 24px;
+      font-family: Helvetica-Bold;
+      line-height: 24px;
+      font-size: 24px;
     }
     .header-menu {
       float: right;

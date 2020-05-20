@@ -52,6 +52,7 @@ export default {
     },
     user: {
       title: 'Users',
+      description: 'It is easy to use, and you can build static open source sites efficiently',
       list: [
         {
           img: 'https://img.alicdn.com/tfs/TB1bIvuGEz1gK0jSZLeXXb9kVXa-2880-1444.png',
@@ -66,7 +67,7 @@ export default {
           link: 'https://aimatrix.ai',
         },
         {
-          img: 'https://img.alicdn.com/tfs/TB1GGYAGxD1gK0jSZFyXXciOVXa-2880-1362.png',
+          img: 'https://img.alicdn.com/tfs/TB1igRoGYr1gK0jSZFDXXb9yVXa-2880-1440.png',
           link: 'https://wharfoo.github.io',
         },
         {
@@ -84,7 +85,7 @@ export default {
     brand: {
       title: '静态站点一键生成工具',
       description: '花更少的时间做更专业的站点',
-      install: '急速安装',
+      install: '极速安装',
     },
     feature: {
       title: '为什么选择我们',
@@ -97,7 +98,7 @@ export default {
         {
           img: 'https://img.alicdn.com/tfs/TB1qvveGbY1gK0jSZTEXXXDQVXa-204-180.png',
           title: 'Markdown文件',
-          description: '支持Markdown文件格式提升开发效率',
+          description: '支持Markdown文件格式',
         },
         {
           img: 'https://img.alicdn.com/tfs/TB1y7DXGXT7gK0jSZFpXXaTkpXa-256-176.png',
@@ -133,6 +134,7 @@ export default {
     },
     user: {
       title: '案例展示',
+      description: '简单易上手，提高搭建静态开源站点的效率',
       list: [
         {
           img: 'https://img.alicdn.com/tfs/TB1bIvuGEz1gK0jSZLeXXb9kVXa-2880-1444.png',
@@ -147,7 +149,7 @@ export default {
           link: 'https://aimatrix.ai',
         },
         {
-          img: 'https://img.alicdn.com/tfs/TB1GGYAGxD1gK0jSZFyXXciOVXa-2880-1362.png',
+          img: 'https://img.alicdn.com/tfs/TB1igRoGYr1gK0jSZFDXXb9yVXa-2880-1440.png',
           link: 'https://wharfoo.github.io',
         },
         {

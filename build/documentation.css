@@ -7,17 +7,23 @@
   background-color: #fff; }
   .header-container-primary {
     background-color: transparent; }
+    .header-container-primary .header-body .brand-name {
+      color: #fff; }
   .header-container-normal {
     background-color: #fff;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08); }
+    .header-container-normal .header-body .brand-name {
+      color: #9254DE; }
   .header-container .header-body {
     margin: 0 80px;
     height: 66px;
     line-height: 66px; }
-    .header-container .header-body .logo {
-      width: 120px;
-      height: 25px;
-      vertical-align: sub; }
+    .header-container .header-body .brand-name {
+      display: inline-block;
+      height: 24px;
+      font-family: Helvetica-Bold;
+      line-height: 24px;
+      font-size: 24px; }
     .header-container .header-body .header-menu {
       float: right; }
       .header-container .header-body .header-menu .header-menu-toggle {

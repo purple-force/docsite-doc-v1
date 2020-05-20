@@ -7,17 +7,23 @@
   background-color: #fff; }
   .header-container-primary {
     background-color: transparent; }
+    .header-container-primary .header-body .brand-name {
+      color: #fff; }
   .header-container-normal {
     background-color: #fff;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08); }
+    .header-container-normal .header-body .brand-name {
+      color: #9254DE; }
   .header-container .header-body {
     margin: 0 80px;
     height: 66px;
     line-height: 66px; }
-    .header-container .header-body .logo {
-      width: 120px;
-      height: 25px;
-      vertical-align: sub; }
+    .header-container .header-body .brand-name {
+      display: inline-block;
+      height: 24px;
+      font-family: Helvetica-Bold;
+      line-height: 24px;
+      font-size: 24px; }
     .header-container .header-body .header-menu {
       float: right; }
       .header-container .header-body .header-menu .header-menu-toggle {
@@ -930,34 +936,34 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 .home-page .top-section {
-  margin-top: 66px;
-  background: #9254DE;
+  background: url(https://img.alicdn.com/tfs/TB17IwMGNz1gK0jSZSgXXavwpXa-1440-696.png);
   height: 700px;
   display: flex;
   align-items: center;
-  padding: 0 80px; }
+  padding: 66px 80px 0; }
   .home-page .top-section .left-part {
     flex: 1; }
     .home-page .top-section .left-part .title {
-      height: 56px;
-      line-height: 56px;
+      height: 45px;
+      line-height: 45px;
       font-family: PingFangSC-Semibold;
-      font-size: 40px;
+      font-size: 32px;
       color: #FFF; }
     .home-page .top-section .left-part .description {
-      height: 50px;
-      line-height: 50px;
+      height: 28px;
+      line-height: 28px;
       font-family: PingFangSC-Light;
-      font-size: 36px;
+      font-size: 20px;
       color: #FFF;
       margin: 24px 0 56px; }
     .home-page .top-section .left-part .install {
-      height: 80px;
-      width: 380px;
-      border-radius: 40px;
+      height: 44px;
+      width: 160px;
+      border-radius: 22px;
       background-color: #FFF;
-      line-height: 80px;
-      font-size: 30px;
+      box-shadow: 0 6px 24px 0 rgba(42, 0, 110, 0.2);
+      line-height: 44px;
+      font-size: 16px;
       text-align: center;
       font-family: PingFangSC-Medium; }
       .home-page .top-section .left-part .install a {
@@ -967,57 +973,85 @@ h1, h2, h3, h4, h5, h6 {
     .home-page .top-section .right-part video {
       outline: none;
       margin-left: 80px;
-      width: calc(100% - 80px); }
+      width: 700px; }
 
 .home-page .feature-section .feature-title {
-  margin: 80px 0;
-  height: 56px;
-  line-height: 56px;
+  margin: 60px 0 90px;
+  line-height: 32px;
   text-align: center;
-  font-family: PingFangSC-Semibold;
-  font-size: 40px;
-  color: #262626; }
+  font-family: PingFangSC-Regular;
+  font-size: 24px;
+  color: #262626;
+  position: relative; }
+  .home-page .feature-section .feature-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 8px;
+    border-radius: 5px;
+    background: #ffcb1d; }
 
 .home-page .feature-section .feature-container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1090px;
+  width: 1200px;
   margin: 0 auto; }
   .home-page .feature-section .feature-container .feature-item {
-    width: 235px;
+    width: 234px;
+    margin: 0 33px 80px;
     flex-grow: 0;
     flex-shrink: 0;
-    text-align: center;
-    margin-bottom: 80px; }
+    text-align: center; }
     .home-page .feature-section .feature-container .feature-item img {
       height: 90px; }
     .home-page .feature-section .feature-container .feature-item h3 {
       margin-top: 40px;
-      height: 28px;
+      line-height: 30px;
       font-family: PingFangSC-Medium;
-      font-size: 20px;
+      font-size: 16px;
       color: #262626; }
     .home-page .feature-section .feature-container .feature-item p {
       font-family: PingFangSC-Regular;
-      font-size: 20px;
+      font-size: 14px;
       color: #8C8C8C;
       text-align: center;
       line-height: 30px; }
 
 .home-page .user-section {
-  padding: 80px 80px 160px;
+  padding: 60px 90px 110px;
   background: #e8e8e8; }
-  .home-page .user-section .title {
-    height: 56px;
-    line-height: 56px;
-    font-family: PingFangSC-Semibold;
-    font-size: 40px;
+  .home-page .user-section .user-title {
+    line-height: 32px;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
     color: #262626;
+    text-align: center;
+    margin-bottom: 78px;
+    position: relative; }
+    .home-page .user-section .user-title::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -28px;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 8px;
+      border-radius: 5px;
+      background: #ffcb1d; }
+  .home-page .user-section .user-description {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: PingFangSC-Regular;
+    color: #595959;
     text-align: center;
     margin-bottom: 80px; }
   .home-page .user-section .user {
     display: inline-block; }
     .home-page .user-section .user img {
-      width: calc(100% - 30px);
-      margin: 0 15px; }
+      width: calc(100% - 60px);
+      margin: 0 30px; }
+  .home-page .user-section .next-slick .next-slick-dots {
+    transform: translateY(50px); }

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Slider } from '@txdfe/at';
+import { getScrollTop, getLink } from '../../../utils';
 import Language from '../../components/language';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -10,14 +11,42 @@ import homeConfig from '../../../site_config/home';
 import './index.scss';
 
 class Home extends Language {
+  constructor(props) {
+    super(props);
+    this.state = {
+      headerType: 'primary',
+    };
+    this.setHeaderType = () => {
+      const scrollTop = getScrollTop();
+      if (scrollTop > 66) {
+        this.setState({
+          headerType: 'normal',
+        });
+      } else {
+        this.setState({
+          headerType: 'primary',
+        });
+      }
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.setHeaderType);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.setHeaderType);
+  }
+
   render() {
     const language = this.getLanguage();
     const dataSource = homeConfig[language];
+    const { headerType } = this.state;
     return (
       <div className="home-page">
         <Header
           currentKey="home"
-          type="normal"
+          type={headerType}
           logo="/img/docsite.png"
           language={language}
           onLanguageChange={this.onLanguageChange}
@@ -51,10 +80,12 @@ class Home extends Language {
           </div>
         </section>
         <section className="user-section">
-          <h3 className="title">{dataSource.user.title}</h3>
+          <h3 className="user-title">{dataSource.user.title}</h3>
+          <p className="user-description">{dataSource.user.description}</p>
           <Slider
-            slidesToShow={2}
-            slidesToScroll={2}
+            arrows={false}
+            slidesToShow={3}
+            slidesToScroll={3}
             autoplay
           >
             {

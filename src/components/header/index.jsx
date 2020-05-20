@@ -112,7 +112,7 @@ class Header extends React.Component {
   }
 
   render() {
-    const { type, logo, onLanguageChange, currentKey } = this.props;
+    const { type, onLanguageChange, currentKey } = this.props;
     const { menuBodyVisible, language, search, searchVisible } = this.state;
     return (
       <header
@@ -124,8 +124,8 @@ class Header extends React.Component {
         }
       >
         <div className="header-body">
-          <a href={getLink(`/${language}/index.html`)}>
-            <img className="logo" alt={siteConfig.name} title={siteConfig.name} src={getLink(logo)} />
+          <a className="brand-name" href={getLink(`/${language}/index.html`)}>
+            DOCSITE
           </a>
           {
             siteConfig.defaultSearch ?
