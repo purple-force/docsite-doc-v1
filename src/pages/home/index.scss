@@ -12,6 +12,14 @@
     .left-part {
       width: 450px;
       margin-right: 50px;
+      .mobile-title {
+        height: 53px;
+        line-height: 53px;
+        font-family: Helvetica-Bold;
+        font-size: 44px;
+        color: #fff;
+        display: none;
+      }
       .title {
         height: 45px;
         line-height: 45px;
@@ -40,6 +48,12 @@
         border: none;
         a {
           color: #805EE3;
+        }
+      }
+      .mobile-video {
+        display: none;
+        video {
+          display: none;
         }
       }
     }
@@ -149,4 +163,86 @@
       transform: translateY(50px);
     }
   };
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .home-page {
+    .top-section {
+      padding-left: 0;
+      padding-right: 0;
+      height: 578px;
+      .left-part {
+        margin-right: 0;
+        text-align: center;
+        .mobile-title {
+          display: block;
+          margin-bottom: 12px;
+          text-align: center;
+        }
+        .title {
+          line-height: 23px;
+          font-family: PingFangSC-Light;
+          font-size: 24px;
+          text-align: center;
+        }
+        .description {
+          display: none;
+        }
+        .install {
+          width: 105px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+        }
+        .mobile-video {
+          display: inline-block;
+          margin-left: 20px;
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 6px;
+            vertical-align: middle;
+          }
+          .video-text {
+            font-size: 14px;
+            color: #fff;
+          }
+        }
+      }
+      .right-part {
+        display: none;
+      }
+    }
+    .feature-section {
+      .feature-container {
+        width: 100%;
+        padding: 0 20px;
+        .feature-item {
+          width: 166px;
+          height: 124px;
+          margin: 0 0 40px;
+          img {
+            height: 72px;
+          }
+          h3 {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 20px;
+          }
+          p {
+            // font-size: 12px;
+            // line-height: 18px;
+            // margin-top: 4px;
+            display: none;
+          }
+        }
+      }
+    }
+    .user-section {
+      padding: 20px 25px 50px;
+      .user-description {
+        display: none;
+      }
+    }
+  }
 }

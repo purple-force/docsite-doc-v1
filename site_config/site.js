@@ -27,7 +27,7 @@ export default {
       list: [
         {
           text: 'Quick Start',
-          link: '/en-us/docs/install.html',
+          link: '/en-us/docs/installation.html',
         },
         {
           text: 'Developer Guide',
@@ -76,7 +76,7 @@ export default {
       list: [
         {
           text: '快速开始',
-          link: '/zh-cn/docs/install.html',
+          link: '/zh-cn/docs/installation.html',
         },
         {
           text: '开发者指南',

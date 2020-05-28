@@ -7,8 +7,7 @@
     margin: 0 auto;
     padding: 40px 40px 0;
     @media screen and (max-width: $mobileWidth) {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding: 20px 20px 0;
     }
     img {
       display: block;
@@ -104,6 +103,12 @@
           text-align: center;
           padding: 0;
         }
+        .col-12 {
+          display: none;
+        }
+      }
+      .copyright {
+        margin-top: 0;
       }
     }
   }

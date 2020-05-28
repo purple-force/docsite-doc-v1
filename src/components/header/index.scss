@@ -199,7 +199,11 @@
 @media screen and (max-width: $mobileWidth) {
   .header-container {
     .header-body {
+      width: 100%;
       .logo {
+        margin-left: 20px;
+      }
+      .brand-name {
         margin-left: 20px;
       }
       .language-switch {

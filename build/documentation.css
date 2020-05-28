@@ -140,44 +140,48 @@
           height: 24px;
           vertical-align: middle; }
 
-@media screen and (max-width: 640px) {
-  .header-container .header-body .logo {
-    margin-left: 20px; }
-  .header-container .header-body .language-switch {
-    margin-right: 20px; }
-  .header-container .header-body .header-menu ul {
-    display: none; }
-  .header-container .header-body .header-menu .header-menu-toggle {
-    display: inline-block;
-    margin-right: 20px; }
-  .header-container .header-body .header-menu-open ul {
-    background-color: #f8f8f8;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 66px;
-    z-index: 100; }
-  .header-container .header-body .header-menu-open li {
-    width: 200px;
-    display: list-item;
-    padding-left: 30px;
-    list-style: none;
-    line-height: 40px;
-    margin-right: 0; }
-    .header-container .header-body .header-menu-open li a {
-      color: #333;
+@media screen and (max-width: 1024px) {
+  .header-container .header-body {
+    width: 100%; }
+    .header-container .header-body .logo {
+      margin-left: 20px; }
+    .header-container .header-body .brand-name {
+      margin-left: 20px; }
+    .header-container .header-body .language-switch {
+      margin-right: 20px; }
+    .header-container .header-body .header-menu ul {
+      display: none; }
+    .header-container .header-body .header-menu .header-menu-toggle {
       display: inline-block;
-      width: 100%; }
-    .header-container .header-body .header-menu-open li:hover {
+      margin-right: 20px; }
+    .header-container .header-body .header-menu-open ul {
+      background-color: #f8f8f8;
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 66px;
+      z-index: 100; }
+    .header-container .header-body .header-menu-open li {
+      width: 200px;
+      display: list-item;
+      padding-left: 30px;
+      list-style: none;
+      line-height: 40px;
+      margin-right: 0; }
+      .header-container .header-body .header-menu-open li a {
+        color: #333;
+        display: inline-block;
+        width: 100%; }
+      .header-container .header-body .header-menu-open li:hover {
+        background: #9254DE; }
+        .header-container .header-body .header-menu-open li:hover a {
+          color: #fff;
+          opacity: 1; }
+    .header-container .header-body .header-menu-open .menu-item-primary-active, .header-container .header-body .header-menu-open .menu-item-normal-active {
       background: #9254DE; }
-      .header-container .header-body .header-menu-open li:hover a {
+      .header-container .header-body .header-menu-open .menu-item-primary-active a, .header-container .header-body .header-menu-open .menu-item-normal-active a {
         color: #fff;
-        opacity: 1; }
-  .header-container .header-body .header-menu-open .menu-item-primary-active, .header-container .header-body .header-menu-open .menu-item-normal-active {
-    background: #9254DE; }
-    .header-container .header-body .header-menu-open .menu-item-primary-active a, .header-container .header-body .header-menu-open .menu-item-normal-active a {
-      color: #fff;
-      opacity: 1; } }
+        opacity: 1; } }
 .bar {
   margin-top: 66px;
   background: #9254DE; }
@@ -202,7 +206,7 @@
       right: 168px;
       bottom: 0;
       opacity: 0.15; }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 1024px) {
       .bar .bar-body::before {
         left: 22px; }
       .bar .bar-body::after {
@@ -292,7 +296,7 @@
     height: 36px;
     line-height: 36px; }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
   .sidemenu {
     width: 0; }
     .sidemenu .sidemenu-toggle {
@@ -1651,7 +1655,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
     padding: 20px 6% 0;
     width: calc(100% - 295px); }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
   .documentation-page .content-section {
     padding-left: 20px;
     padding-right: 20px; }

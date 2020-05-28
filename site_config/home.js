@@ -4,6 +4,7 @@ export default {
       title: 'A tool for building static site',
       description: 'More professional and more effective',
       install: 'Install',
+      video: 'Video',
     },
     feature: {
       title: 'Why us',
@@ -11,7 +12,7 @@ export default {
         {
           img: 'https://img.alicdn.com/tfs/TB1RnrXGkL0gK0jSZFtXXXQCXXa-172-176.png',
           title: 'Out of box',
-          description: 'Support home,document,blog pages',
+          description: 'Generate pages',
         },
         {
           img: 'https://img.alicdn.com/tfs/TB1qvveGbY1gK0jSZTEXXXDQVXa-204-180.png',
@@ -98,6 +99,7 @@ export default {
       title: '静态站点一键生成工具',
       description: '花更少的时间做更专业的站点',
       install: '极速安装',
+      video: '观看视频',
     },
     feature: {
       title: '为什么选择我们',
@@ -105,7 +107,7 @@ export default {
         {
           img: 'https://img.alicdn.com/tfs/TB1RnrXGkL0gK0jSZFtXXXQCXXa-172-176.png',
           title: '页面一键生成',
-          description: '支持文档、博客、项目首页一键生成',
+          description: '文档、博客、首页一键生成',
         },
         {
           img: 'https://img.alicdn.com/tfs/TB1qvveGbY1gK0jSZTEXXXDQVXa-204-180.png',
@@ -115,7 +117,7 @@ export default {
         {
           img: 'https://img.alicdn.com/tfs/TB1y7DXGXT7gK0jSZFpXXaTkpXa-256-176.png',
           title: '跨屏适配UI',
-          description: '支持PC端和无线端跨屏幕适配UI',
+          description: '支持跨屏幕适配UI',
         },
         {
           img: 'https://img.alicdn.com/tfs/TB1SBzfGkT2gK0jSZFkXXcIQFXa-180-180.png',
@@ -124,7 +126,7 @@ export default {
         },
         {
           img: 'https://img.alicdn.com/tfs/TB17cHcGeH2gK0jSZFEXXcqMpXa-204-176.png',
-          title: '支持国际化',
+          title: '国际化',
           description: 'markdown文档和站点的国际化',
         },
         {
