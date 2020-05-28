@@ -154,6 +154,8 @@
     .header-container .header-body .header-menu .header-menu-toggle {
       display: inline-block;
       margin-right: 20px; }
+    .header-container .header-body .search {
+      display: none; }
     .header-container .header-body .header-menu-open ul {
       background-color: #f8f8f8;
       display: inline-block;

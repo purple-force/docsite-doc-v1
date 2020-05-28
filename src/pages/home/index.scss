@@ -214,6 +214,14 @@
       }
     }
     .feature-section {
+      .feature-title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 50px;
+        &::after {
+          bottom: -16px;
+        }
+      }
       .feature-container {
         width: 100%;
         padding: 0 20px;
@@ -240,6 +248,20 @@
     }
     .user-section {
       padding: 20px 25px 50px;
+      .user-title {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 50px;
+        &::after {
+          bottom: -16px;
+        }
+      }
+      .user {
+        img {
+          width: calc(100% - 40px);
+          margin: 0 20px;
+        }
+      }
       .user-description {
         display: none;
       }

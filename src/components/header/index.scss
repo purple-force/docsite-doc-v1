@@ -218,6 +218,9 @@
           margin-right: 20px;
         }
       }
+      .search {
+        display: none;
+      }
       .header-menu-open {
         ul {
           background-color: $headerMenuBgColor;

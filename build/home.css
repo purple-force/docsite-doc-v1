@@ -154,6 +154,8 @@
     .header-container .header-body .header-menu .header-menu-toggle {
       display: inline-block;
       margin-right: 20px; }
+    .header-container .header-body .search {
+      display: none; }
     .header-container .header-body .header-menu-open ul {
       background-color: #f8f8f8;
       display: inline-block;
@@ -1114,6 +1116,12 @@ h1, h2, h3, h4, h5, h6 {
           color: #fff; }
     .home-page .top-section .right-part {
       display: none; }
+  .home-page .feature-section .feature-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px; }
+    .home-page .feature-section .feature-title::after {
+      bottom: -16px; }
   .home-page .feature-section .feature-container {
     width: 100%;
     padding: 0 20px; }
@@ -1131,5 +1139,14 @@ h1, h2, h3, h4, h5, h6 {
         display: none; }
   .home-page .user-section {
     padding: 20px 25px 50px; }
+    .home-page .user-section .user-title {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 50px; }
+      .home-page .user-section .user-title::after {
+        bottom: -16px; }
+    .home-page .user-section .user img {
+      width: calc(100% - 40px);
+      margin: 0 20px; }
     .home-page .user-section .user-description {
       display: none; } }
