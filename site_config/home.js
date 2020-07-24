@@ -122,7 +122,7 @@ export default {
         {
           img: 'https://img.alicdn.com/tfs/TB1SBzfGkT2gK0jSZFkXXcIQFXa-180-180.png',
           title: '引擎收录',
-          description: '采用SSR，方便搜索引擎收录',
+          description: '采用预渲染，方便搜索引擎收录',
         },
         {
           img: 'https://img.alicdn.com/tfs/TB17cHcGeH2gK0jSZFEXXcqMpXa-204-176.png',
